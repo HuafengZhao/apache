@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>产品上传页面</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="upload css.css">
+</head>
+<body>
+	<h1>产品上传页面</h1>
+	<form method="post" action="upload.php" enctype="multipart/form-data">
+		<label>产品名称：</label>
+		<input type="text" name="product_name" required><br><br>
+		<label>价格：</label>
+		<input type="text" name="price" required><br><br>
+		<label>产品介绍：</label>
+		<textarea name="product_description" required></textarea><br><br>
+		<label>上传主图片：</label>
+	    <input type="file" name="product_image" required><br><br>
+	    <label>上传 detail 1：</label>
+	    <input type="file" name="detail_photo1"><br><br>
+	    <label>上传 detail 2：</label>
+	    <input type="file" name="detail_photo2"><br><br>
+	    <label>上传 detail 3：</label>
+	    <input type="file" name="detail_photo3"><br><br>
+    	<input type="submit" value="上传图片">
+	</form>
+</body>
+</html> 

@@ -1,0 +1,77 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.product-images {
+  display: left;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.product-image {
+  width: 15%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.price {
+  font-size: 2em;
+  color: #333;
+}
+
+.price2 {
+  font-size: 2em;
+  color: gray;
+}
+
+.quantity_font {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.quantity {
+  font-size: 1.2em;
+  color: #333;
+  padding: 0 10px;
+}
+
+button {
+  background-color: gainsboro;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/*button:hover {
+  background-color: #c9302c;
+}*/
+
+.submit {
+  background-color:#337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/*.submit:hover {
+  background-color: #c9302c;
+}*/
+
+
